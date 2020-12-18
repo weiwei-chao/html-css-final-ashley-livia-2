@@ -1,0 +1,181 @@
+*{
+  margin: 0;
+  font-family: Myriad Pro;
+  font-weight: lighter;
+}
+
+body{
+  display: flex;
+  height:100%;
+}
+
+.flex1{
+  display: flex;
+  flex-direction: column;
+  background-color: #091868;
+  padding: 20px;
+  align-items: center;
+}
+
+.flex2{
+  width: 100%;
+}
+
+#pic1{
+  width: 200px;
+  margin-bottom: 40px;
+}
+
+#pic2{
+  width: 45px;
+  padding-left: 20px;
+}
+
+#pic3{
+  background-color: #091868;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 30px;
+  height: 80px;
+  align-self: center;
+  margin-left: auto;
+}
+
+#pic4{
+  width: 40px;
+  padding: 20px;
+  padding-bottom: 0;
+  padding-top: 5px;
+}
+
+#pic5{
+  width: 50px;
+  padding: 20px;
+}
+
+#pic6{
+  width: 50px;
+  padding: 20px;
+  position: absolute;
+  padding: 0;
+  margin-left: -12px;
+  margin-top: -15px;
+}
+
+h1{
+  text-decoration: underline;
+  color: #FFFFFF;
+  font-weight: lighter;
+  font-size: 16px;
+  margin: 30px;
+}
+
+h2{
+  font-size: 35px;
+}
+
+h3{
+  font-size: 23px;
+  color: white;
+  margin-left: 40px
+}
+
+h4{
+  font-size: 22px;
+  color: white;
+  background-color: #091868;
+  border-radius: 30px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+nav{
+  background-color: #FFC831;
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  padding-left: 40px;
+  padding-right:40px;
+}
+
+#body{
+  display: flex;
+  width: 100%;
+  background-color: #054CBF;
+  align-items: center;
+}
+
+#b1{
+  margin: 40px;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+#f1{
+  display: flex;
+  margin-bottom: 30px;
+  align-items:flex-start;
+}
+
+#b2{
+  display: flex;
+  border: 5px solid #091868;
+  margin: 15px;
+  margin-top: 30px;
+  flex-direction: column;
+  width: 800px;
+}
+
+#f2{
+  display: flex;
+  padding: 25px;
+  align-items: center;
+  border-bottom: 5px solid #091868;
+}
+
+input{
+  background-color: #091868;
+  border-radius: 30px;
+  border:2px solid #091868;
+  padding: 20px;
+  margin: 0;
+  width: 350px;
+}
+
+::placeholder{
+  color: #054CBF;
+  font-size: 30px;
+  text-align: justify;
+}
+
+#f3{
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+  padding-top: 30px;
+}
+
+#grid{
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.block{
+  margin: 10px;
+}
+
+#g2{
+  padding: 10px;
+  background-color: white;
+  border-radius: 100px;
+  height: 25px;
+  width: 25px;
+  margin: auto;
+}
+
+#g3{
+  margin-left: auto;
+}
